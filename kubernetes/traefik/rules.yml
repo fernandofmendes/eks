@@ -1,0 +1,23 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+  - host: nginx.syshero.com.br
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: nginx
+          servicePort: 80
+  - host: httpd.syshero.com.br
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: httpd
+          servicePort: 80
