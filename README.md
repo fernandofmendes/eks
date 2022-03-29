@@ -1,5 +1,5 @@
 ## Diagrama EKS
-<img src="https://github.com/fernandofmendes/eks/blob/main/EKS_Infrastructure_Diagram.svg" widht=600 weight=350 >
+<img src="https://github.com/fernandofmendes/eks/blob/main/documentation/EKS_Infrastructure_Diagram.svg" widht=600 weight=350 >
 
 ## Gerar chave de SSH de acesso as EC2
 ```sh
